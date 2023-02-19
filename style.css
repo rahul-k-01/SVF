@@ -2,20 +2,20 @@
 
 body{
     background-image: url('images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .logo{
-    float: left;
+    float:left;
 }
 .card{
     background-color: #ffffff89;
     margin-top: 10%;
-    margin-left:40%;
 }
 .card-header{
     font-size: 2em;
     font-weight: 500;
 }
 h1{
-    padding-left: 15%;
     font-family: 'Gloock', serif;
 }

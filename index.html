@@ -12,33 +12,38 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
   </head>
   <body>
-    <nav class="navbar bg-primary navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="images/SVF-logo.png"
-            alt="logo"
-            height="50em"
-            class="logo"
-          />
-          <h1>Sri Vasavi Foundry Pvt. Ltd.</h1>
-        </a>
-      </div>
-    </nav>
-    <div class="card" style="max-width: 18rem">
-      <div class="card-header text-center">Login</div>
-      <div class="card-body">
-        <form class="">
-          <label for="username">Username</label>
-          <input type="text" required />
-          <label for="username">Password</label>
-          <input type="text" required />
-          <div class="text-center m-3">
-            <input type="submit" class="btn btn-success" />
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="bg-primary navbar-dark text-center">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/SVF-logo.png"
+              alt="logo"
+              height="50em"
+              class="logo"
+            />
+            <h1>Sri Vasavi Foundry Pvt. Ltd.</h1>
+          </a>
+        </nav>
+        <div class="col"></div>
+        <div class="card col-6">
+          <div class="card-header text-center">Login</div>
+          <div class="card-body">
+            <form class="">
+              <label for="username">Username</label>
+              <input type="text" required />
+              <label for="username">Password</label>
+              <input type="text" required />
+              <div class="text-center m-3">
+                <input type="submit" class="btn btn-success" />
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
+        <div class="col"></div>
       </div>
     </div>
   </body>
